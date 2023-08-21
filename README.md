@@ -6,21 +6,21 @@ The "DVD Rental Database Analysis and Revenue Insights" project involves the exp
 
 Key Tasks and Highlights:
 
-## Database Connection and Data Loading: Establish a connection to a PostgreSQL database and load relevant tables into pandas DataFrames for analysis.
+1. Database Connection and Data Loading: Establish a connection to a PostgreSQL database and load relevant tables into pandas DataFrames for analysis.
 
-## Data Exploration and Common Column Analysis: Explore the data by analyzing common columns across multiple tables, gaining an understanding of the database's structure.
+2. Data Exploration and Common Column Analysis: Explore the data by analyzing common columns across multiple tables, gaining an understanding of the database's structure.
 
-## Sentiment Analysis of Movie Descriptions: Utilize TextBlob for sentiment analysis on movie descriptions, calculating polarity, subjectivity, and sentiment scores.
+3. Sentiment Analysis of Movie Descriptions: Utilize TextBlob for sentiment analysis on movie descriptions, calculating polarity, subjectivity, and sentiment scores.
 
-## Revenue Visualization: Create time-series plots to visualize the daily total revenue for the top three countries.
+4. Revenue Visualization: Create time-series plots to visualize the daily total revenue for the top three countries.
 
-## Customer and Revenue Analysis by Country: Merge customer data with country information and calculate daily revenue per country, followed by revenue distribution visualization.
+5. Customer and Revenue Analysis by Country: Merge customer data with country information and calculate daily revenue per country, followed by revenue distribution visualization.
 
-## Actor Contribution Estimation: Estimate actor contributions to revenue based on different assumptions, such as equal sharing or rental rates.
+6. Actor Contribution Estimation: Estimate actor contributions to revenue based on different assumptions, such as equal sharing or rental rates.
 
-## Integration of Additional Geographic Data: Enhance the 'country' table by adding continent information through integration with an external dataset.
+7. Integration of Additional Geographic Data: Enhance the 'country' table by adding continent information through integration with an external dataset.
 
-## Insights and Findings: Summarize the findings from the analyses, including revenue trends, customer preferences, and sentiment insights.
+8. Insights and Findings: Summarize the findings from the analyses, including revenue trends, customer preferences, and sentiment insights.
 
 This project provides a comprehensive understanding of the DVD rental business from various angles, leveraging data analysis and visualization techniques. It sheds light on revenue patterns, customer sentiments, and the impact of geographic factors on the business, contributing to strategic decision-making and future improvements.
 ### Data source: https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
